@@ -1,0 +1,12 @@
+import build.Converter
+
+apply plugin: 'java'
+apply plugin: 'application'
+
+task gen(type: Converter) {
+    group = 'group'
+}
+
+application {
+  mainClassName = 'code.App'
+}

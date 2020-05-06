@@ -1,0 +1,9 @@
+apply plugin: 'java'
+
+sourceSets{
+    main {
+        java {
+            srcDir "${project.rootDir}/../src/main/java/shared"
+        }
+    }
+}
