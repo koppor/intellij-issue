@@ -2,7 +2,7 @@
 
 > Filed as IntelliJ issue: [IDEA-240250](https://youtrack.jetbrains.com/issue/IDEA-240250)
 
-IntelliJ 2020.1.1 201.7223.91 has isse if a source directory is used in two Gradle projects
+IntelliJ 2020.1.1 201.7223.91 has an issue if a source directory is used in two Gradle projects
 
 The `build.gradle` in `buildSrc` has following entry:
 
